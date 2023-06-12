@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 3</title>
+  </head>
+  <body>
+    <h1>Formulario de registro</h1>
+    <section>
+      <form>
+        <div>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" required />
+        </div>
+        <br />
+        <div>
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" required />
+        </div>
+        <div>
+          <p>
+            Modalidad de cursada:
+            <input type="radio" id="ondemand" name="modalidad" required />
+            <label for="ondemand">On-Demand</label>
+            <input type="radio" id="envivo" name="modalidad" required />
+            <label for="envivo">En vivo</label>
+          </p>
+        </div>
+        <div>
+          <label for="correo">Correo:</label>
+          <input type="email" id="correo" required />
+        </div>
+        <br />
+        <div>
+          <input type="checkbox" id="info" />
+          <label for="info"
+            >Deseo recibir informacion sobre nuevos posteos en la plataforma de
+            NUcba</label
+          >
+        </div>
+        <br />
+        <div>
+          <input type="checkbox" id="terminos" required />
+          <label for="terminos"
+            >Declaro que lei los terminos y condiciones y estoy listo para
+            convertirme en desarrolador web Full</label
+          >
+        </div>
+        <br />
+        <input type="Submit" value="Enviar" />
+      </form>
+    </section>
+    <br />
+    <a href="index.html">Volver al inicio</a>
+  </body>
+</html>
